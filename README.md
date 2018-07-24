@@ -42,7 +42,7 @@ Then, you need to add some informations in your configuration files. You can fin
 * In the services.php file:
 
 ```php
-mailjet' => [
+'mailjet' => [
     'key' => env('MAILJET_APIKEY'),
     'secret' => env('MAILJET_APISECRET'),
 ]
